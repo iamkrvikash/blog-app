@@ -1,0 +1,29 @@
+<!-- Header File Added-->
+<%- include('partials/header'); -%>
+
+<!-- Blog -->
+
+    <div class="ui main text container">
+        <div class="ui huge header">
+            New Blog
+        </div>
+
+        <!-- Form -->
+        <form class="ui form" action="/blogs" method="POST">
+            <div class="field">
+                <label>Title</label>
+                <input type="text" name="blog[title]" placeholder="Title">
+            </div>
+            <div class="field">
+                <label>Body</label>
+                <textarea name="blog[body]" placeholder="Post goes here...">
+                </textarea>
+            </div>
+            <input class="ui blue inverted button" type="submit">
+        </form>
+
+    </div>
+
+<!-- Header File Added-->
+
+    <%- include('partials/footer'); -%>

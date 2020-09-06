@@ -1,0 +1,38 @@
+<!-- Header File Added-->
+<%- include('partials/header'); -%>
+
+<!-- Blog -->
+
+    <div class="ui main text container">
+        <!-- Header-->
+        <div class="ui huge header">   
+                <%= blog.title %>
+        </div>
+
+        <!-- Content-->
+        <div class="ui top attached">
+             <%- blog.body %>
+              <div class="description">
+               <br>
+                <h4>
+                     <%= blog.created.toDateString() %>
+                </h4>
+              </div>
+
+        </div>
+    </div>
+
+    <!-- Buttons-->
+
+    <a class="ui green inverted button" href="/blogs/<%= blog._id %>/edit">
+         Edit 
+    </a>
+
+    <form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+        <button class="ui red inverted button"> 
+            Delete 
+        </button>
+    </form>
+
+<!-- Footerer File Added-->
+  <%- include('partials/footer'); -%>

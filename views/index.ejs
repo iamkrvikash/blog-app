@@ -1,0 +1,47 @@
+<!-- Header File Added-->
+<%- include('partials/header'); -%>
+
+<!-- Blog -->
+
+    <div class="ui main text container">
+        <!-- Header-->
+        <div class="ui huge header">
+            Restful Blog App
+        </div>
+        <!-- Content-->
+        
+            <% blogs.forEach(function(blog){ %>
+                <hr>
+                <div class="item">
+                    <div class="content">
+                        <a class="header" href="/blogs/<%= blog._id %>">
+                            <%= blog.title %>    
+                        </a>   
+                    </div>
+
+                    <br>
+                    <div class="description">
+                        <p>
+                            <%- blog.body.substring(0,150) %>...
+                        </p>
+                    </div>
+
+                    <br>
+                    <div class="extra">
+                        <a class="ui inverted violet button" href="/blogs/<%= blog._id %>"> 
+                            Read More
+                        </a>
+                    </div>
+                    
+                    <div class="meta">
+                        <span> <%= blog.created.toDateString() %> </span>
+                    </div>
+                </div>
+                
+
+                <% }) %>
+        
+    </div>
+
+<!-- Footer File Added-->
+    <%- include('partials/footer'); -%>
