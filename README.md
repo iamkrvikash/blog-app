@@ -3,5 +3,6 @@
 
 # Setup
 > Run `npm i` to download the dependencies
-> run `node app.js`  to run the in local server
+
+> Run `node app.js`  to run the in local server
 
