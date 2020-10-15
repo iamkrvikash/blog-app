@@ -21,12 +21,12 @@ node app.js
 
 ##### Index Page
 
-<img title="" src="screenshots/index.png" alt="Index" data-align="center" width="530">
+<img title="" src="screenshots/index.png" alt="Index" data-align="center" width="596">
 
 ##### New Page
 
-<img title="" src="screenshots/new.png" alt="Output" width="518" data-align="center">
+<img title="" src="screenshots/new.png" alt="Output" width="594" data-align="center">
 
 ##### Edit & Delete Page
 
-<img title="" src="screenshots/edit.png" alt="Output" width="507" data-align="center">
+<img title="" src="screenshots/edit.png" alt="Output" width="593" data-align="center">
