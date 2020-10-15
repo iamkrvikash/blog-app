@@ -1,11 +1,14 @@
 # Welcome to Restful Blog
+
 [Blog Website](https://novice-blogapp.herokuapp.com/blogs) Click here to visit Live Site
+
 #### Home Page
-![Home Page of Live site](screenshots/home.png)
+
+<img title="" src="screenshots/home.png" alt="Home Page of Live site" data-align="center" width="496">
 ------------
 
-
 #### Steps to install & run on local system:
+
 ```sh
 git clone https://github.com/iamkrvikash/Blog-App.git
 cd Blog-App
@@ -13,11 +16,17 @@ npm i
 npm update
 node app.js
 ```
+
 #### Next Open [http://localhost:3000/](http://localhost:3000/ "http://localhost:3000/")
 
 ##### Index Page
-![Index](screenshots/index.png)
+
+<img title="" src="screenshots/index.png" alt="Index" data-align="center" width="530">
+
 ##### New Page
-![Output](screenshots/new.png)
+
+<img title="" src="screenshots/new.png" alt="Output" width="518" data-align="center">
+
 ##### Edit & Delete Page
-![Output](screenshots/edit.png)
+
+<img title="" src="screenshots/edit.png" alt="Output" width="507" data-align="center">
