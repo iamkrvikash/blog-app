@@ -1,0 +1,7 @@
+#Herko 
+
+1. hekoru login
+sign in from browser.
+2. heroku help
+3. heroku apps
+4. heroku git:clone -a novice-blogapp
